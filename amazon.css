@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+    color: black;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.options{
+    display: flex;
+    gap: 35px;
+    
+}
+.option{
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(48, 46, 46);
+    text-align: center;
+    border-radius: 15px;
+}
+.option:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+}
